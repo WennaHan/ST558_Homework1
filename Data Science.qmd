@@ -1,0 +1,48 @@
+---
+title: "Data Science"
+format: html
+editor: visual
+---
+
+# Basic Understanding of Being a Data Scientist
+
+## What do you think being a data scientist is about?
+
+Being a data scientist involves solving problems by transforming raw data into understanding, insight, and knowledge. The data science process begins with importing and tidying the data, ensuring it is in a consistent and usable format. Next, data scientists engage in an iterative cycle of data transformation, visualization, and modeling to gain a deep understanding of the data. Transformation involves narrowing down the dataset to relevant observations, creating new variables, and calculating summary statistics. Visualization helps to explore patterns, trends, and outliers, while modeling employs mathematical and computational tools to answer specific questions, make predictions, and draw conclusions. Finally, data scientists must effectively communicate their findings and insights to clients or other stakeholders, using clear and compelling narratives to drive data-informed decision-making. Throughout the process, programming skills are essential for automating tasks, manipulating data, and solving problems efficiently.
+
+## What differences/similarities do you see between data scientists and statisticians?
+
+-   **Similarities:**
+    -   Both work closely with data to gain insights and solve problems.
+    -   Both use models to analyze data and make predictions.
+-   **Differences:**
+    -   ***Data types and size***: Statisticians typically work with smaller, well-structured datasets, while data scientists handle diverse, large-scale, and unstructured data.
+    -   ***Focus***: Statisticians emphasize modeling and statistical inference, while data scientists prioritize data preprocessing, wrangling, and delivering actionable results.
+    -   ***Integration***: Statisticians are less integrated with production systems, while data scientists are more embedded in the data generation processes.
+    -   ***Approach***: Statisticians bring data to models, while data scientists bring models to data.
+
+## How do you view yourself in relation to these two areas?
+
+As a PhD student in a social science field while simultaneously pursuing a master's degree in statistics, I find myself at the intersection of the two areas. My graduate studies in statistics have equipped me with the technical knowledge and skills necessary to be a statistician. The coursework has provided me with foundation in statistical theory, modeling techniques, and data analysis methods.Fortunately, my research experience in the social sciences has given me insight into applying statistical techniques to real-world problems. Through my work in this field, I have gained practical experience in collecting, cleaning, analyzing, and communicating data to address social issues. I hope to be a data scientist in the future, who can lead data-driven decision-making and solve real-life challenges in the social sciences and beyond.
+
+# Example of Running R Code
+
+y represents the probability density function of the Sepal.Length variable from the iris dataset.
+
+```{r}
+y <- density(iris$Sepal.Length)
+```
+
+The class, type, and structure of the object y:
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+The following plot shows the density of x.
+
+```{r, echo=FALSE}
+plot(y, main = "density of iris$Sepal.Length")
+```
