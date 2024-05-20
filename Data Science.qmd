@@ -41,7 +41,7 @@ typeof(y)
 str(y)
 ```
 
-The following plot shows the density of x.
+**The following plot shows the density of x:**
 
 ```{r, echo=FALSE}
 plot(y, main = "density of iris$Sepal.Length")
